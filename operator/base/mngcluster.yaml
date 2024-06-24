@@ -2,5 +2,6 @@ apiVersion: cluster.open-cluster-management.io/v1
 kind: ManagedCluster
 metadata:
   name: managed-cluster
+  namespace: open-cluster-management
 spec:
   hubAcceptsClient: true
