@@ -7,7 +7,6 @@ metadata:
     argocd.argoproj.io/sync-wave: "3"
 spec:
   sourceNamespace: openshift-marketplace
-  source: redhat
   channel: release-2.10
   installPlanApproval: Automatic
   name: advanced-cluster-management
