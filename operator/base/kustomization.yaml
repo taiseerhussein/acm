@@ -4,3 +4,4 @@ resources:
 - mch.yaml
 - operator-group.yaml
 - subscription.yaml
+- namespace.yaml
