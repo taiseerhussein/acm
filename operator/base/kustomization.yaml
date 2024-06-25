@@ -3,4 +3,4 @@ kind: Kustomization
 resources: 
 # - mch.yaml
 - operator-group.yaml
-# - subscription.yaml
+- subscription.yaml
