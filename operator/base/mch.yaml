@@ -3,5 +3,6 @@ kind: MultiClusterHub
 metadata:
   name: multiclusterhub
   namespace: open-cluster-management
-  argocd.argoproj.io/sync-wave: "4"
+  annotations:
+    argocd.argoproj.io/sync-wave: "4"
 spec: {}
