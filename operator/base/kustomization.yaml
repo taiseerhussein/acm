@@ -1,7 +1,7 @@
 kind: Kustomization
 
 resources: 
-- mch.yaml
+# - mch.yaml
 - operator-group.yaml
 - subscription.yaml
 - namespace.yaml
